@@ -1,0 +1,55 @@
+//settings.json file
+
+{
+    "workbench.colorTheme": "Oceanic Next",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "sync.gist": "302fabb5652aebcc4833fe18e4fbe4ab",
+    "window.menuBarVisibility": "visible",
+    "vscodeGoogleTranslate.preferredLanguage": "Russian",
+    "editor.minimap.enabled": false,
+    "prettier.tabWidth": 4,
+    "todohighlight.isEnable": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "gitlens.defaultDateFormat": null,
+    "gitlens.defaultTimeFormat": null,
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "prettier.endOfLine": "crlf",
+    "git.enableSmartCommit": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.startupEditor": "none",
+    "vscode-w3cvalidation.validator-token": "Thu, 13 May 2021 03:21:50 GMT",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Oceanic Next]": {
+            "enabled": true,
+            "rules": {
+                "variable.defaultLibrary": { "foreground": "#e6c363" },
+                "variable.declaration": { "foreground": "#9bace2" },
+                "property.declaration": { "foreground": "#f3aea9" }
+            }
+        }
+    }
+}
