@@ -1,0 +1,113 @@
+// Carousel styles
+
+.features-carousel
+	width: 1260px
+	height: 550px
+	margin: 0 auto
+	position: relative
+
+.slide-wrap
+	width: 1120px
+	height: 550px
+	margin: 0 auto
+	position: relative
+	overflow: hidden
+	li
+		position: absolute
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)
+		background-color: #fff
+		border-radius: 15px
+
+	.inner
+		position: relative
+		border: none
+		border-radius: 0
+		display: flex
+		justify-content: center
+	.pic-tit
+		display: block
+		font-family: 'Prometo_Bold', sans-serif
+		font-size: 33px
+		line-height: 1.2
+		background: none
+		position: static
+		color: $bgc
+		margin-top: 37px
+		height: auto
+		width: 260px
+	.img-wrap
+		width: 233px
+		height: 233px
+		margin: 0 auto
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+
+.pos1
+	width: 338px
+	height: 401px
+	padding: 24px 50px
+	left: 10px
+	top: 50%
+	transform: translateY(-50%)
+	z-index: 1
+	.pic-tit
+		font-size: 25px
+
+.pos2
+	width: 398px
+	height: 479px
+	padding: 55px 50px 88px
+	left: 12.5%
+	top: 25%
+	transform: translateY(-22%)
+	z-index: 2
+	.pic-tit
+		font-size: 30px
+
+.pos3
+	width: 446px
+	height: 532px
+	padding: 95px 50px 102px
+	top: 10px
+	left: 50%
+	transform: translateX(-50%)
+	z-index: 3
+
+
+.pos4
+	width: 398px
+	height: 479px
+	padding: 55px 50px 88px
+	right: 12.5%
+	top: 25%
+	transform: translateY(-22%)
+	z-index: 2
+	.pic-tit
+		font-size: 30px
+
+.pos5
+	width: 338px
+	height: 401px
+	padding: 24px 50px
+	right: 10px
+	top: 50%
+	transform: translateY(-50%)
+	z-index: 1
+	.pic-tit
+		font-size: 25px
+
+.carousel-arr
+	position: absolute
+	z-index: 5
+	width: 15px
+	height: 55px
+	top: 50%
+	transform: translateY(-50%)
+	&.prev-arr
+		background: url('../img/_style/SVGs/prev-arr.svg') center/contain no-repeat
+		left: 20px
+	&.next-arr
+		background: url('../img/_style/SVGs/next-arr.svg') center/contain no-repeat
+		right: 20px
