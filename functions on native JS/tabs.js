@@ -1,5 +1,5 @@
 // Перевод в строгий режим
-'use stirct';
+'use strict';
 
 window.addEventListener('DOMContentLoaded', function() {
 
