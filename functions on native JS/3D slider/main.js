@@ -1,3 +1,14 @@
+
+
+//Don't work yet!!!!!
+//Don't work yet!!!!!
+//Don't work yet!!!!!
+//Don't work yet!!!!!
+//Don't work yet!!!!!
+
+
+
+
 // Перевод в строгий режим
 'use strict';
 
