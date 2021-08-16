@@ -1,0 +1,41 @@
+const images = () => {
+    const imgPopUp    = document.createElement('div'),
+          workSection = document.querySelector('.works'),
+          bigImage    = document.createElement('img');
+
+    imgPopUp.classList.add('popup');
+    //Добавляем попап на страницу
+    workSection.appendChild(imgPopUp);
+
+    //Стили для попап, лучше классами
+    imgPopUp.style.justifyContent = 'center';
+    imgPopUp.style.alignItems = 'center';
+    imgPopUp.style.display = 'none';
+
+    //Добавляем картинку в попап
+    imgPopUp.appendChild(bigImage);
+
+    //Обработчик событий для вызова попапа
+    workSection.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        let target = e.target;
+
+        if (target && target.classList.contains('preview')) {
+            //Показываем попап
+            imgPopUp.style.display = 'flex';
+            //берем путь-ссылку из родителя таргета для показа правильной картинки
+            const path = target.parentNode.getAttribute('href');
+
+            //Устанавливаем путь для картинки
+            bigImage.setAttribute('src', path);
+        }
+
+        //Закрытие по клику на подложку
+        if (target && target.matches('div.popup')) {
+            imgPopUp.style.display = 'none';
+        }
+    });
+};
+
+export default images;
