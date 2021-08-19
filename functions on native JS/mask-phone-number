@@ -1,0 +1,53 @@
+const mask = (selector) => {
+
+    let setCursorPosition = (pos, elem) => {
+        elem.focus(); // Вручную устанавливаем фокус на элемент
+
+        // Проверяем, что у элемента есть такой метод (у старых браузеров нет)
+        if (elem.setSelectionRange) {
+            elem.setSelectionRange(pos, pos); //Так как начало и конец совпадает, просто ставим курсор в позицию pos
+        } else if (elem.createTextRange) { //Другой метод, который почти аналогичен предыдущему
+            let range = elem.createTextRange();
+
+            range.collapse(true); //Объединяем граничные точки диапазона
+            range.moveEnd('character', pos);
+            range.moveStart('character', pos);
+            range.select();
+        }
+    };
+
+    function createMask(event) {
+        let matrix = '+3 (___) ___ __ __', //Маска для ввода номера
+            i = 0,
+            def = matrix.replace(/\D/g, ''), // Заменяем все не цифры \D на пустую строку
+            val = this.value.replace(/\D/g, '');
+
+        // Не даст удалить из маски дефолтные +3
+        if (def.length >= val.length) {
+            val = def;
+        }
+
+        this.value = matrix.replace(/./g, function(a) {
+            return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i>= val.length ? '' : a;
+        });
+
+        if (event.type === 'blur') {
+            if (this.value.length === 2) {
+                this.value = '';
+            }
+        } else {
+            setCursorPosition(this.value.length, this);
+        }
+    }
+
+    let inputs = document.querySelectorAll(selector);
+
+    inputs.forEach(input => {
+        input.addEventListener('input', createMask);
+        input.addEventListener('focus', createMask);
+        input.addEventListener('blur', createMask); //blur - потеря фокуса
+    });
+};
+
+export default mask;
+
