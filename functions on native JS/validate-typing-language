@@ -1,0 +1,14 @@
+//Проверка на ввод только символов определенного языка
+const checkTextInputs = (selector) => {
+    const txtInputs = document.querySelectorAll(selector);
+
+    txtInputs.forEach(input => {
+        input.addEventListener('keypress', function(e) {
+            if (e.key.match(/[^а-яё 0-9]/ig)) {//^начало строки, а-яё 0-9 - русские буквы и цифры, ig - по всей строки не зависимо от регистра
+                e.preventDefault();
+            }
+        });
+    });
+};
+
+export default checkTextInputs;
