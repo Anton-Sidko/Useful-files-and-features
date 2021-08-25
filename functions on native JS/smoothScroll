@@ -1,0 +1,109 @@
+const scrolling = (upSelector) => {
+    const upElem = document.querySelector(upSelector);
+
+    window.addEventListener('scroll', () => {
+        if (document.documentElement.scrollTop > 1650) {
+            upElem.classList.add('animated', 'fadeIn');
+            upElem.classList.remove('fadeOut');
+        } else {
+            upElem.classList.add('fadeOut');
+            upElem.classList.remove('fadeIn');
+        }
+    });
+
+    //На RequestAnimationFrame RAF
+
+    let links = document.querySelectorAll('[href^="#"]'), //Ищем все ссылки которые Начинаются с #(локальные ссылки)
+        speed = 0.3;
+
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            let widthTop = document.documentElement.scrollTop,
+                hash = this.hash,
+                toBlock = document.querySelector(hash).getBoundingClientRect().top, //Верх элемента к которому скролим
+                start = null;
+
+            requestAnimationFrame(step);
+
+            function step(time) {
+                if (start === null) { //Первый ли раз выпольняется
+                    start = time;
+                }
+
+                let progress = time - start,
+                    r = (toBlock < 0 ? Math.max(widthTop - progress/speed, widthTop + toBlock) : Math.min(widthTop + progress/speed, widthTop + toBlock));//Количество пикселей на которые нужно пролистать за шаг и в какую сторону
+
+                document.documentElement.scrollTo(0, r);
+
+                if (r !== widthTop + toBlock) { //Функция step будет сама себя рекурсивно запускать пока не выполниться условие
+                    requestAnimationFrame(step);
+                } else {
+                    location.hash = hash;
+                }
+            }
+        });
+    });
+
+
+    // Реализация плавного скролла по якорю на чистом JS
+
+    // const element = document.documentElement,
+    //       body    = document.body;
+
+    // const calcScroll = () => {
+    //     // const upElem = document.querySelector(upSelector);
+    //     upElem.addEventListener('click', function(event) {
+    //         let scrollTop = Math.round(body.scrollTop || element.scrollTop); //Самое первое статичное значение которое потом меняться не будет
+
+    //         if (this.hash !== '') { //Еслт хэш не пустой, то кликнули на ссылку
+    //             event.preventDefault();
+    //             let hashElement = document.querySelector(this.hash),
+    //                 hashElementTop = 0;
+
+    //             while (hashElement.offsetParent) {
+    //                 hashElementTop += hashElement.offsetTop;
+    //                 hashElement = hashElement.offsetParent;
+    //             }
+
+    //             hashElementTop = Math.round(hashElementTop); //На сколько пикселей нужно скролить
+
+    //             smoothScroll(scrollTop, hashElementTop, this.hash);
+    //         }
+    //     });
+    // };
+
+    // const smoothScroll = (from, to, hash) => {
+    //     let timeInterval = 5,
+    //         prevScrolltop,
+    //         speed;
+
+    //     if (to > from) {
+    //         speed = 30; //Движение сверху вниз
+    //     } else {
+    //         speed = -30; //Движение снизу вверх
+    //     }
+
+    //     let move = setInterval(function() {
+    //         let scrollTop = Math.round(body.scrollTop || element.scrollTop); // Значение которое в текущий момент
+
+    //         if (//Условия которые гарантируют, что мы долистали туда куда нужно
+    //             prevScrolltop === scrollTop ||
+    //             (to > from && scrollTop >= to) ||
+    //             (to < from && scrollTop <= to)
+    //         ) {
+    //             clearInterval(move);
+    //             history.replaceState(history.state, document.title, location.href.replace(/#.*$/g, '') + hash);
+    //         } else {
+    //             body.scrollTop += speed; // Страничка начала двигаться
+    //             element.scrollTop += speed; //Используется body или element, в зависимости от того, что существует
+    //             prevScrolltop = scrollTop;
+    //         }
+    //     }, timeInterval);
+    // };
+
+    // calcScroll();
+};
+
+export default scrolling;
