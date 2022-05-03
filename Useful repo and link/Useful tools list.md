@@ -3,7 +3,7 @@
 <h2> Tools </h2>
 <ol>    
   <li> <a href="https://animista.net/"> Animations generator </a> </li>
-  <li> <a href="  https://webkul.github.io/csspin/"> CSS spinners collection </a> </li>
+  <li> <a href="https://webkul.github.io/csspin/"> CSS spinners collection </a> </li>
   <li> <a href="https://proto.io/freebies/onoff/"> On/Off switch </a> </li>
   
   <li> <a href="https://realfavicongenerator.net/"> Favicon generator </a> </li>  
