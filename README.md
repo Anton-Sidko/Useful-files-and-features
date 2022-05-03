@@ -1,1 +1,1 @@
-Useful files and functions
+Useful info, tools, code snippets
