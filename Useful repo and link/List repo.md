@@ -17,7 +17,7 @@
   <li> <a href="https://github.com/trekhleb/javascript-algorithms"> Algorithms and data structure on JS </a> </li>
   <li> <a href="https://github.com/getify/You-Dont-Know-JS"> You don't know JS books </a> </li> 
   
-  <hr>
+  <h3> Code snippets </h3>
   <li> <a href="https://github.com/30-seconds/30-seconds-of-code"> JS short code snippets </a> </li>  
 </ol>
 
