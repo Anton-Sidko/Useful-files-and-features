@@ -7,6 +7,8 @@
   <li> <a href="https://roadmap.sh/frontend"> Frontend roadmap </a> </li>
   <li> <a href="https://github.com/thedaviddias/Front-End-Checklist"> Frontend checklist </a> </li>
   <li> <a href="https://www.bigocheatsheet.com/"> Big O cheatsheet </a> </li>  
+  <li> <a href="https://www.freecodecamp.org/learn"> FreeCodeCamp </a> </li>
+  
   
 </ol>
 
