@@ -5,7 +5,9 @@
   <li> <a href="https://github.com/goldbergyoni/nodebestpractices"> Node.js best practices </a> </li>
   <li> <a href="https://github.com/elsewhencode/project-guidelines"> Project guidelines </a> </li>
   <li> <a href="https://roadmap.sh/frontend"> Frontend roadmap </a> </li>
-  <li> <a href="https://github.com/thedaviddias/Front-End-Checklist"> Frontend checklist </a> </li>  
+  <li> <a href="https://github.com/thedaviddias/Front-End-Checklist"> Frontend checklist </a> </li>
+  <li> <a href="https://www.bigocheatsheet.com/"> Big O cheatsheet </a> </li>  
+  
 </ol>
 
 <hr>
@@ -25,7 +27,7 @@
 
 <h2> React.js reference info </h2>
 <ol>
-  <li> <a href="https://devhints.io/react"> React cheatssheet </a> </li>
+  <li> <a href="https://devhints.io/react"> React cheatsheet </a> </li>
   <li> <a href="https://github.com/sudheerj/reactjs-interview-questions"> React interview questions </a> </li>  
 </ol>
 
