@@ -23,6 +23,7 @@
   <li> <a href="https://github.com/rmurphey/js-assessment"> A test-driven JS assessment </a> </li> 
   <li> <a href="https://learn.javascript.ru/"> Great book about JS </a> </li>
   <li> <a href="https://github.com/wesbos/JavaScript30"> 30 Day Vanilla JS Challenge </a> </li>
+  <li> <a href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-ru.md#javascript"> Free books for developer collection </a> </li>
   
   
   <h4> Code snippets </h4>
