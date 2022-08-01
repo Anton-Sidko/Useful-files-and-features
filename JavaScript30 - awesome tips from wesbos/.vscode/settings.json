@@ -1,0 +1,26 @@
+{
+    "cSpell.language": "en,lorem",
+    "cSpell.enableFiletypes": [
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!elixir",
+        "!go",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!jupyter",
+        "!latex",
+        "!python",
+        "!rust",
+        "!scala",
+        "jsx-tags",
+        "log",
+        "markdown-math",
+        "powershell",
+        "sass",
+        "sass.hover",
+        "sql",
+        "twig"
+    ]
+}
