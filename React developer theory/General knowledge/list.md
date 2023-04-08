@@ -5,13 +5,13 @@ How does the internet works, how the Web works. Difference between a web page, a
 1. Protocols (HTTP, HTTPS, HTTP2):
    <p>Protocol - set of rules or procedures for transmitting data between two or more entities of a communications system.</p>
    - [Links on W3C](https://www.w3.org/People/Frystyk/thesis/TcpIp.html): The Internet Protocol Stack;
-   - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol);
-   - [HTTP vs HTTPS](https://www.freecodecamp.org/news/http-vs-https/);
-   - [HTTP](https://en.wikipedia.org/wiki/HTTP) on Wikipedia;
-   - [HTTPS](https://en.wikipedia.org/wiki/HTTPS) on Wikipedia;
-   - [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) on Wikipedia;
-   - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4);
-   - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2);
+   - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
+   - [HTTP vs HTTPS](https://www.freecodecamp.org/news/http-vs-https/)
+   - [HTTP](https://en.wikipedia.org/wiki/HTTP) on Wikipedia
+   - [HTTPS](https://en.wikipedia.org/wiki/HTTPS) on Wikipedia
+   - [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) on Wikipedia
+   - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4)
+   - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2)
 
 2. Browsers (how do they works):
 
