@@ -1,4 +1,4 @@
-## General knowledge
+# General knowledge
 
 How does the internet works, how the Web works. Difference between a web page, a web site, a web server and search engine. Understanding domain names. Understanding development processes, main programming paradigms etc.
 
