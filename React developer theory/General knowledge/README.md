@@ -6,11 +6,13 @@ How does the internet works, how the Web works. Difference between a web page, a
 
    <p>Protocol - set of rules or procedures for transmitting data between two or more entities of a communications system.</p>
 
+   - [Good articles on Medium](https://cabulous.medium.com/)
    - [Links on W3C](https://www.w3.org/People/Frystyk/thesis/TcpIp.html): The Internet Protocol Stack;
    - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
    - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4)
    - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2)
    - [TLS handshake](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/)
+   - [HTTP headers](https://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
 
 2. ### Browsers (how do they works):
 
@@ -20,14 +22,21 @@ How does the internet works, how the Web works. Difference between a web page, a
    - [How does browser work step by step [latest] — optimization in the loading stage (part 4)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-4-more-about-rendering-phase-fbba0d94a174)
    - [How does browser work step by step [latest] — optimization in the interaction stage (part 5)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-5-optimization-in-the-interaction-stage-66b53b8ec0ad)
 
-3. Domain Name and Hosting:
-4. Web Security Knowledge
-5. Software Development Life Cycle (SDLC):
-6. GraphQL:
-7. REST, SOAP:
-8. Functional Programming:
-9. Object-oriented programming (OOP):
-10. MVC / MVVM / MV:
-11. Object Oriented Design:
-12. Test Driven development:
+3. ### Domain Name and Hosting:
+
+   <p>‍Web hosting is the service that enables an individual or organization to publish a website on the Internet. Types of Web Hosting, Essential Web Hosting Features (Domain name registration, Speed, Storage, Bandwidth, Scalability, Uptime, Email Accounts, Support)</p>
+
+   - [Domain Name/DNS Resolution — How it Works?](https://cabulous.medium.com/domain-name-dns-resolution-how-it-works-bddafa0246ed)
+   - [Difference Between Domain Name and Web Hosting](https://www.wpbeginner.com/beginners-guide/whats-the-difference-between-domain-name-and-web-hosting-explained/)
+   - [What is Web Hosting?](https://www.namecheap.com/hosting/what-is-web-hosting-definition/#:~:text=Web%20hosting%20definition,is%20hosted%20on%20a%20server.)
+
+4. ### Web Security Knowledge
+5. ### Software Development Life Cycle (SDLC):
+6. ### GraphQL:
+7. ### REST, SOAP:
+8. ### Functional Programming:
+9. ### Object-oriented programming (OOP):
+10. ### MVC / MVVM / MV:
+11. ### Object Oriented Design:
+12. ### Test Driven development:
 
