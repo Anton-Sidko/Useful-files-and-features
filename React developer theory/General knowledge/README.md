@@ -30,7 +30,12 @@ How does the internet works, how the Web works. Difference between a web page, a
    - [Difference Between Domain Name and Web Hosting](https://www.wpbeginner.com/beginners-guide/whats-the-difference-between-domain-name-and-web-hosting-explained/)
    - [What is Web Hosting?](https://www.namecheap.com/hosting/what-is-web-hosting-definition/#:~:text=Web%20hosting%20definition,is%20hosted%20on%20a%20server.)
 
-4. ### Web Security Knowledge
+4. ### Web Security Knowledge (Content Security Policy, CORS, OWASP Security Risks)
+
+   - [Website security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
+   - [Web security knowledge](https://dev.to/ahmedatefae/web-security-knowledge-you-must-understand-it-part-i-https-tls-ssl-cors-csp-298l)
+   - [OWASP](https://owasp.org/)
+
 5. ### Software Development Life Cycle (SDLC):
 6. ### GraphQL:
 7. ### REST, SOAP:
