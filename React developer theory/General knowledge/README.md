@@ -10,6 +10,7 @@ How does the internet works, how the Web works. Difference between a web page, a
    - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
    - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4)
    - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2)
+   - [TLS handshake](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/)
 
 2. ### Browsers (how do they works):
 
