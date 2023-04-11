@@ -75,13 +75,13 @@ How does the internet works, how the Web works. Difference between a web page, a
 
 11. ### Object Oriented Design:
 
-   <p>Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</p>
+    <p>Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</p>
 
-     - [Design patterns](https://refactoring.guru/design-patterns)
+    - [Design patterns](https://refactoring.guru/design-patterns)
 
 12. ### Test Driven development:
 
-   <p>‍Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is opposed to software being developed first and test cases created later.</p>
+    <p>‍Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is opposed to software being developed first and test cases created later.</p>
 
-     - [Test Driven Development (TDD): What it is and benefits](https://javascript.plainenglish.io/test-driven-development-tdd-what-it-is-and-benefits-635b230a0ef3)
+    - [Test Driven Development (TDD): What it is and benefits](https://javascript.plainenglish.io/test-driven-development-tdd-what-it-is-and-benefits-635b230a0ef3)
 
