@@ -68,7 +68,10 @@ How does the internet works, how the Web works. Difference between a web page, a
 
    - [OOP Meaning – What is Object-Oriented Programming?](https://www.freecodecamp.org/news/what-is-object-oriented-programming/)
 
-10. ### MVC / MVVM / MV:
+10. ### MVC / MVVM / MV\*:
+
+    - [JavaScript Technical Interview Question: is React a MVC or MVVM?](https://medium.com/developers-tomorrow/javascript-interview-question-is-react-an-mvc-or-mvvm-ac2ea2a5127d)
+    - [MVC vs MVP vs MVVM](https://levelup.gitconnected.com/mvc-vs-mvp-vs-mvvm-35e0d4b933b4https://levelup.gitconnected.com/mvc-vs-mvp-vs-mvvm-35e0d4b933b4)
 
 11. ### Object Oriented Design:
 
