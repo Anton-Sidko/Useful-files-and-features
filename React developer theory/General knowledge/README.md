@@ -4,23 +4,22 @@ How does the internet works, how the Web works. Difference between a web page, a
 
 1. ### Protocols (HTTP, HTTPS, HTTP2):
 
-   <p>Protocol - set of rules or procedures for transmitting data between two or more entities of a communications system.</p>
-
-   - [Good articles on Medium](https://cabulous.medium.com/)
-   - [Links on W3C](https://www.w3.org/People/Frystyk/thesis/TcpIp.html): The Internet Protocol Stack;
-   - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
-   - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4)
-   - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2)
-   - [TLS handshake](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/)
-   - [HTTP headers](https://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
+  <p>Protocol - set of rules or procedures for transmitting data between two or more entities of a communications system.</p>
+  - [Good articles on Medium](https://cabulous.medium.com/)
+  - [Links on W3C](https://www.w3.org/People/Frystyk/thesis/TcpIp.html): The Internet Protocol Stack;
+  - [Network protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
+  - [What is HTTP and HTTPS?](https://cabulous.medium.com/what-is-http-and-https-c3da5fd5adb4)
+  - [HTTP/2 and How it Works](https://cabulous.medium.com/http-2-and-how-it-works-9f645458e4b2)
+  - [TLS handshake](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/)
+  - [HTTP headers](https://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
 
 2. ### Browsers (how do they works):
 
-   - [How web browser works step by step [Latest]— high-level architecture (part 1)](https://cabulous.medium.com/how-browser-works-part-i-process-and-thread-f63a9111bae9)
-   - [How web browser works step by step [latest]— navigation phase (part 2)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-ii-navigation-342b27e56d7b)
-   - [How does browser work step by step [latest] — rendering phase (part 3)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-iii-rendering-phase-i-850c8935958f)
-   - [How does browser work step by step [latest] — optimization in the loading stage (part 4)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-4-more-about-rendering-phase-fbba0d94a174)
-   - [How does browser work step by step [latest] — optimization in the interaction stage (part 5)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-5-optimization-in-the-interaction-stage-66b53b8ec0ad)
+- [How web browser works step by step [Latest]— high-level architecture (part 1)](https://cabulous.medium.com/how-browser-works-part-i-process-and-thread-f63a9111bae9)
+- [How web browser works step by step [latest]— navigation phase (part 2)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-ii-navigation-342b27e56d7b)
+- [How does browser work step by step [latest] — rendering phase (part 3)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-iii-rendering-phase-i-850c8935958f)
+- [How does browser work step by step [latest] — optimization in the loading stage (part 4)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-4-more-about-rendering-phase-fbba0d94a174)
+- [How does browser work step by step [latest] — optimization in the interaction stage (part 5)](https://cabulous.medium.com/how-does-browser-work-in-2019-part-5-optimization-in-the-interaction-stage-66b53b8ec0ad)
 
 3. ### Domain Name and Hosting:
 
@@ -37,11 +36,40 @@ How does the internet works, how the Web works. Difference between a web page, a
    - [OWASP](https://owasp.org/)
 
 5. ### Software Development Life Cycle (SDLC):
+
+   <p>Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.</p>
+
+   - [What is SDLC?](https://phoenixnap.com/blog/software-development-life-cycle#:~:text=An%20SDLC%20software%20development%20life,all%20major%20stages%20of%20development.)
+
 6. ### GraphQL:
-7. ### REST, SOAP:
+
+   <p>‍GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.</p>
+
+   - [GraphQl home page](https://graphql.org/)
+   - [Introduction GraphQL](https://dou.ua/lenta/articles/working-with-qraphql/)
+   - [A Guide to GraphQL in Plain English](https://www.freecodecamp.org/news/a-beginners-guide-to-graphql-60e43b0a41f5/)
+
+7. ### REST (Representational State Transfer), SOAP (Simple Object Access Protocol):
+
+   <p>‍REST and SOAP are 2 different approaches to online data transmission. Specifically, both define how to build application programming interfaces (APIs), which allow data to be communicated between web applications.</p>
+
+   - [SOAP vs REST. What's the Difference?](https://smartbear.com/blog/soap-vs-rest-whats-the-difference/)
+   - [SOAP vs. REST vs. GraphQL: Difference Between Web API Services](https://javascript.plainenglish.io/soap-vs-rest-vs-graphql-difference-between-web-api-services-461eee5d1ad7)
+
 8. ### Functional Programming:
+
+   - [Functional Programming in simple terms](https://medium.com/angular-in-depth/functional-programming-in-simple-terms-abcef30a2ad1)
+   - [What is Functional Programming?](https://www.guru99.com/functional-programming-tutorial.html#8)
+
 9. ### Object-oriented programming (OOP):
+
+   <p>‍Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).</p>
+
+   - [OOP Meaning – What is Object-Oriented Programming?](https://www.freecodecamp.org/news/what-is-object-oriented-programming/)
+
 10. ### MVC / MVVM / MV:
+
 11. ### Object Oriented Design:
+
 12. ### Test Driven development:
 
