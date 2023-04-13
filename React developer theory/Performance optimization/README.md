@@ -10,5 +10,16 @@ Techniques and tools to speed up your website and improve user experience.
    - [RAIL: A Framework to measure performance](https://medium.com/proximity-labs/rail-a-framework-to-measure-performance-63c16250ed50)
 
 2. ### Performance Metrics:
+
    - [Top Ten Website Performance Metrics](https://pantheon.io/blog/top-website-performance-metrics)
+
+3. ### Using Lighthouse:
+
+    <p>Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.</p>
+
+   - [Google Lighthouse: What It Is & How to Use It](https://www.semrush.com/blog/google-lighthouse/)
+
+4. ### Using DevTools:
+
+   - [Chrome DevTools: 10 Useful Tips & Tricks](https://stackdiary.com/chrome-devtools-tips-and-tricks/)
 
