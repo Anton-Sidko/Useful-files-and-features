@@ -21,3 +21,9 @@ JavaScript is an interpreted programming language that conforms to the ECMAScrip
    - [Data types](https://javascript.info/types)
    - [JavaScript: Primitive Values & Object References](https://medium.com/@junshengpierre/javascript-primitive-values-object-references-361cfc1cbfb0)
 
+4. ### Function context:
+
+   <p>‍Functions in JavaScript run in a specific context, and using the "this" variable we have access to it. All standard functions in the browser run under the Window context. Functions defined under an object or a class (another function) will use the context of the object it was created in. However, we can also change the context of a function at runtime, either before or while executing the function.</p>
+
+   - [This](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
