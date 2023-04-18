@@ -56,11 +56,11 @@ JavaScript is an interpreted programming language that conforms to the ECMAScrip
 
 10. ### Regular Expressions:
 
-   <p>‍‍A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for. A regular expression can be a single character, or a more complicated pattern. Regular expressions can be used to perform all types of text search and text replace operations.</p>
+    <p>‍‍A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for. A regular expression can be a single character, or a more complicated pattern. Regular expressions can be used to perform all types of text search and text replace operations.</p>
 
-- [Regular expressions](https://javascript.info/regular-expressions)
-- [Regular expressions MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
-- [RegEx builder](https://regex101.com/)
+    - [Regular expressions](https://javascript.info/regular-expressions)
+    - [Regular expressions MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+    - [RegEx builder](https://regex101.com/)
 
 11. ### DOM, Event handling, bubbling & delegation:
 
