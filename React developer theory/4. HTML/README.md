@@ -2,39 +2,35 @@
 
 HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.
 
-1. ### ES6+:
+1. ### HTML Basics:
 
-   <p>ECMA means European Computer Manufacturer's Association. ECMAScript is a programming language standard that web browsers follow while interpreting Javascript.</p>
+   - [HTML basics MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+   - [Learn HTML Basics for Beginners in Just 15 Minutes](https://www.freecodecamp.org/news/html-basics-for-beginners/)
 
-   - [ES6+ Most Essential Features](https://javascript.plainenglish.io/es6-most-essential-features-cbd2a1cf423b)
-   - [ES6+ Features](https://info340.github.io/es6.html)
-   - [ES6 for Humans](https://github.com/metagrover/ES6-for-humans)
+2. ### Writing Semantic HTML:
 
-2. ### Asynchronous JS:
+   <p>Semantic HTML means writing HTML that is descriptive and meaningful in regards to content and context.</p>
 
-   <p>Using asynchronous JavaScript (such as callbacks, promises, and async/await), you can perform long network requests without blocking the main thread.</p>
+   - [Semantic HTML5 Elements Explained](https://www.freecodecamp.org/news/semantic-html5-elements/)
 
-   - [Asynchronous JavaScript in 15 Minutes: A Comprehensive Explanation](https://javascript.plainenglish.io/asynchronous-javascript-in-15-minutes-all-the-basics-you-need-to-know-including-callbacks-858eee42813b)
+3. ### Forms and Validations:
 
-3. ### Primitive types, Object:
+   - [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+   - [How to Create and Validate Modern Web Forms with HTML5](https://www.freecodecamp.org/news/create-and-validate-modern-web-forms-html5/)
 
-   - [Data types](https://javascript.info/types)
-   - [JavaScript: Primitive Values & Object References](https://medium.com/@junshengpierre/javascript-primitive-values-object-references-361cfc1cbfb0)
+4. ### Conventions and Best Practices:
 
-4. ### Function context:
+   - [HTML Best Practices – How to Build a Better HTML-Based Website](https://www.freecodecamp.org/news/html-best-practices/)
+   - [20 HTML Best Practices For Beginners](https://www.webfx.com/blog/web-design/20-html-best-practices-you-should-follow/)
+   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-   <p>‍Functions in JavaScript run in a specific context, and using the "this" variable we have access to it. All standard functions in the browser run under the Window context. Functions defined under an object or a class (another function) will use the context of the object it was created in. However, we can also change the context of a function at runtime, either before or while executing the function.</p>
+5. ### Accessibility:
 
-   - [This](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+   - [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+   - [HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp)
 
-5. ### Scope, Closures:
+6. ### SEO Basics:
 
-   <p>A scope in JavaScript defines what variables you have access to. There are two kinds of scope – global scope and local scope. Whenever you create a function within another function, you have created a closure. The inner function is the closure. This closure is usually returned so you can use the outer function’s variables at a later time.</p>
-
-   - [Variable scope, closure](https://javascript.info/closure)
-   - [Scope and Closures in JavaScript – Explained with Examples](https://www.freecodecamp.org/news/scope-and-closures-in-javascript/)
-
-6. ### Modules:
-
-   - [Modules, introduction](https://javascript.info/modules-intro)
+   - [SEO Basics: Beginner’s Guide to SEO Success](https://ahrefs.com/blog/seo-basics/)
+   - [The 5 SEO Basics You Need to Master (No Technical Experience Required)](https://neilpatel.com/blog/seo-basics/)
 
