@@ -33,3 +33,21 @@ CSS (Cascading Style Sheets) is the language used to style an HTML document. CSS
    - [CSS Box Model MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
    - [Box Model in CSS: “Boxes — Rectangular Boxes Everywhere 😅”](https://javascript.plainenglish.io/box-model-in-css-boxes-boxes-rectangular-boxes-everywhere-6774966ad37c)
 
+7. ### CSS Grid:
+
+   - [CSS Grid Layout MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+   - [Grid](https://web.dev/learn/css/grid/)
+
+8. ### Flex Box:
+
+   - [Basic concepts of flexbox MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+   - [A Guide to Using CSS Flexbox](https://javascript.plainenglish.io/css-flexbox-2b819e4c3d53)
+
+9. ### CSS Frameworks:
+
+   <p>‍A CSS framework is a library allowing for easier, more standards-compliant web design using the Cascading Style Sheets language. For example there are few of them, the most popular: Reactstrap, Material UI, Tailwind CSS, Chakra UI, Bootstrap, Materialize CSS, Bulma</p>
+
+   - Reactstrap:
+     - [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+     - [Step-by-Step Guide to using Reactstrap for Building Amazing Web Apps in React](https://www.copycat.dev/blog/reactstrap/)
+
