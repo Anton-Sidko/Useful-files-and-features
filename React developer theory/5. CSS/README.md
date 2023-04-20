@@ -45,9 +45,31 @@ CSS (Cascading Style Sheets) is the language used to style an HTML document. CSS
 
 9. ### CSS Frameworks:
 
-   <p>‍A CSS framework is a library allowing for easier, more standards-compliant web design using the Cascading Style Sheets language. For example there are few of them, the most popular: Reactstrap, Material UI, Tailwind CSS, Chakra UI, Bootstrap, Materialize CSS, Bulma</p>
+   <p>‍A CSS framework is a library allowing for easier, more standards-compliant web design using the Cascading Style Sheets language. For example there are few of them, the most popular:</p>
 
-   - Reactstrap:
+   - #### Reactstrap:
      - [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
      - [Step-by-Step Guide to using Reactstrap for Building Amazing Web Apps in React](https://www.copycat.dev/blog/reactstrap/)
+   - #### Material UI:
+     - [Material UI](https://mui.com/)
+     - [Material UI](https://react.school/material-ui)
+   - #### Tailwind CSS:
+     - [Tailwind CSS](https://tailwindcss.com/)
+     - [What is Tailwind CSS? A Beginner's Guide](https://www.freecodecamp.org/news/what-is-tailwind-css-a-beginners-guide/)
+   - #### Chakra UI:
+     - [Chakra UI](https://chakra-ui.com/)
+     - [How To Get Started With Chakra UI & Extend the Theme](https://www.locofy.ai/blog/extend-chakra-ui-theme)
+   - #### Bootstrap:
+     - [Bootstrap](https://getbootstrap.com/)
+   - #### Materialize CSS:
+     - [Materialize](https://materializecss.com/)
+   - #### Bulma:
+     - [Bulma](https://bulma.io/)
+
+10. ### CSS Architecture (BEM, OOCSS, SMACSS):
+
+    - [BEM docs](https://en.bem.info/methodology/)
+    - [BEM by Example](https://sparkbox.com/foundry/bem_by_example)
+    - [OOCSS - The Future of Writing CSS](https://www.keycdn.com/blog/oocss)
+    - [Exploring SMACSS: Scalable and Modular Architecture for CSS](https://www.toptal.com/css/smacss-scalable-modular-architecture-css)
 
