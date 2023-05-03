@@ -12,7 +12,7 @@
 
 2. ### Adding events to elements:
 
-   <p>‍Handling events with React elements is similar to handling events on DOM elements, with a few minor exceptions./p>
+   <p>‍Handling events with React elements is similar to handling events on DOM elements, with a few minor exceptions.</p>
 
    - [SyntheticEvent - legacy docs](https://legacy.reactjs.org/docs/events.html#clipboard-events)
    - [Handling Events In React](https://medium.com/@hyungmok.kim92/handling-events-in-react-5e5941866368)
