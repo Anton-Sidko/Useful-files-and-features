@@ -5,8 +5,6 @@ Routing is a process in which a user is directed to different pages based on the
 
 [Understanding The Fundamentals of Routing in React](https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e)
 
-<br>
-
 [Documentation](https://reactrouter.com/en/main)
 
 1. ### Configuration:
