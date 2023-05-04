@@ -1,6 +1,7 @@
 # React - State management
 
 [React.js](https://react.dev/) - official docs.
+[Managing State](https://react.dev/learn/managing-state) - official docs.
 In React development, keeping track of how your application data changes over time is called state management.
 
 1. ### Middlewares:
