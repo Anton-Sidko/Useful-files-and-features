@@ -3,7 +3,11 @@
 [React.js](https://react.dev/) - official docs.
 Routing is a process in which a user is directed to different pages based on their action or request.
 
-[Understanding The Fundamentals of Routing in React](https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e)[Documentation](https://reactrouter.com/en/main)
+[Understanding The Fundamentals of Routing in React](https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e)
+
+<br>
+
+[Documentation](https://reactrouter.com/en/main)
 
 1. ### Configuration:
 
