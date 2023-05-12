@@ -36,7 +36,8 @@
 <ol>
   <li> <a href="https://devhints.io/react"> React cheatsheet </a> </li>
   <li> <a href="https://github.com/sudheerj/reactjs-interview-questions"> React interview questions </a> </li>  
-  <li> <a href="https://github.com/antonioru/beautiful-react-hooks"> React hooks collection </a> </li>  
+  <li> <a href="https://github.com/antonioru/beautiful-react-hooks"> React hooks collection </a> </li>
+  <li> <a href="https://github.com/enaqx/awesome-react#react-general-resources"> Awesome React </a> </li>
 </ol>
 
 
