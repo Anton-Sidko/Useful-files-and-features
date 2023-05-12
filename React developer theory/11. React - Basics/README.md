@@ -2,6 +2,8 @@
 
 [React.js](https://react.dev/) is a JS library. Unlike Angular, React.js makes it a developer's responsibility to set a project structure, find relevant services for HTTP routing, and so on. At this point, React's ideology is to be agile and provide developers with absolute freedom. As a result, it leads to minimizing the project's size from start, as they could involve those libraries that they need by a certain time.
 
+[Awesome React](https://github.com/enaqx/awesome-react#react-general-resources) - repo with a collection of awesome things regarding the React ecosystem.
+
 1. ### Main principles:
 
    <p>‍‍React.js couldn't work alone, as it is only the View (V) and needs an engine for data processing.</p>
